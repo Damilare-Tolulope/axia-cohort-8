@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables</title>
+  </head>
+  <body>
+    <h1>HTML Table Class</h1>
+
+    <!-- Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Quantity</th>
+          <th>Price (N)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Bread</td>
+          <td>5</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>Jam</td>
+          <td>1</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td rowspan="2">2</td>
+          <td>3000</td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>5000</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td>15000</td>
+        </tr>
+      </tfoot>
+
+      <caption style="caption-side: bottom">
+        Shopping list
+      </caption>
+    </table>
+  </body>
+</html>

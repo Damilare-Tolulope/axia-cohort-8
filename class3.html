@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and multimedia</title>
+</head>
+<body>    
+    <h1>HTML Forms</h1>
+    <form>
+        <!-- Text -->
+         <div>
+             <label for="name">Name</label>
+             <input type="text" placeholder="Enter your full name" />
+        </div>
+
+        <!-- Email -->
+         <div>
+             <label for="Email">Email</label>
+             <input type="email" placeholder="oyinyechi@email.com" />
+        </div>
+
+         <!-- Password -->
+          <div>
+              <label for="Password">Password</label>
+              <input type="password" placeholder="*************" />
+        </div>
+          
+          <!-- Checkbox -->
+           <div>
+               <label for="Checkbox">
+                Checkbox
+                <input type="checkbox" />
+            </label>
+               
+               <label for="Checkbox">Checkbox 2</label>
+               <input type="checkbox" />
+        </div>
+          
+         <!-- Radio -->
+          <div>
+            <label for="gender">Gender</label>
+            <div>
+                <span>Male</span>
+                <input type="radio" name="gender" />
+            </div>
+            <div>
+                <span>Female</span>
+                <input type="radio" name="gender" />
+            </div>
+            <div>
+                <span>Others</span>
+                <input type="radio" name="gender" />
+            </div>
+          </div>
+         
+         <!-- Number -->
+          <label for="age">Age</label>
+          <input type="number" placeholder="20" />
+
+         <!-- Date -->
+          <div>
+              <label for="date">Date</label>
+              <input type="date" />
+            </div>
+
+         <!-- DateTime -->
+         <div>
+             <label for="date and time">Date and Time</label>
+             <input type="datetime-local" />
+        </div>
+
+         <!-- File -->
+         <div>
+             <label for="File">Upload your image</label>
+             <input type="file" />
+        </div> 
+
+        <!-- Textarea -->
+         <label>Message</label>
+        <textarea rows="3" cols="20"></textarea>
+
+        <!-- Select -->
+         <div>
+             <label>Select Your favourite course</label>
+             <select>
+                 <option value="math">Mathematics</option>
+                 <option value="engish">English</option>
+                 <option value="civics">Civics</option>
+                 <option value="literature">Literature</option>
+                 <option value="chemistry">Chemistry</option>
+                </select>
+            </div>
+
+        <!-- Button -->
+         <div>
+             <button type="button">Click me</button>
+             <button type="reset">Reset</button>
+             <button type="submit">Submit</button>
+        </div>
+
+         <!-- <input type="submit" /> -->
+
+         <!-- Try out the other types of input we have: image, search, range, color, etc... -->
+    </form>
+
+    <!-- HTML Multimedia -->
+     <!-- Image -->
+      <img src="./assets/images/bear.jpg" alt="Bear" width="300" height="200" />
+      <img src="deer.webp" alt="Group of deer" width="400" height="300" />
+
+      <!-- Audio -->
+       <!-- autoplay controls loop muted -->
+        <audio controls loop>
+            <source src="Silencios de Los Angeles - Cumbia Deli.mp3" type="" />
+            Your browser can't play this audio
+        </audio>
+
+      <!-- Video -->
+       <!-- autoplay muted loop controls poster -->
+       <video width="400" height="300" autoplay muted loop>
+            <source src="Learncity Line Bars .mp4" />
+            Your browser can't this awesome video up here!
+       </video>
+       <video width="400" height="300" controls poster="./deer.webp">
+            <source src="../../Downloads/AnimePahe_Ore_dake_Level_Up_na_Ken_-_14_1080p_SubsPlease.mp4" />
+            Your browser can't this awesome video up here!
+       </video>
+
+       <!-- Iframe -->
+        <iframe
+            height="200"
+            width="300"
+            src="https://youtu.be/66U-JxCYWW4?si=RhJjWiknpPv9TuRS"
+            title="Afrobeat DJ"
+        ></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/66U-JxCYWW4?si=qIrUMNG0UheBqreR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

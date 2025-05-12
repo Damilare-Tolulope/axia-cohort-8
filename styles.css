@@ -1,0 +1,23 @@
+span {
+    font-size: 10px;
+    color: darkgreen;
+}
+
+#third {
+    border-color: blue;
+    border-width: 10px;
+    border-style: dashed;
+}
+
+.random p:hover {
+    color: yellow;
+    background-color: darkblue;
+}
+
+a {
+    color: rosybrown;
+}
+
+a[href="https://axia.africa"] {
+    font-size: 5px;
+}
